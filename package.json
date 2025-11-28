@@ -1,5 +1,5 @@
 {
-  "name": "Baileys",
+  "name": "meta",
   "version": "6.8.5",
   "description": "Custom Baileys WhatsApp API",
   "keywords": [
@@ -13,7 +13,7 @@
     "url": "git@github.com:Melody-Xz/meta.git"
   },
   "license": "MIT-License",
-  "author": "this-xyz",
+  "author": "Melody-xz",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -25,7 +25,7 @@
     "build:all": "tsc",
     "build:tsc": "tsc",
     "gen:protobuf": "sh WAProto/GenerateStatics.sh",
-    "lint": "eslint lib --ext .js,.ts",
+    "lint": "eslint src --ext .js,.ts",
     "lint:fix": "yarn lint --fix",
     "prepack": "tsc",
     "prepare": "tsc",
